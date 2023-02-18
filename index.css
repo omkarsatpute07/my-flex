@@ -1,0 +1,150 @@
+.box{
+    height:70px;
+    width:70px;
+    justify-content: space-around;
+}
+
+.col4{
+    position:fixed;    
+    top: 230px;
+    right:420px;
+}
+.col2{
+    
+    position: fixed;
+    bottom: 150px;
+    left: 35px;
+
+}
+.c1{
+    background-color: blue;
+   position: fixed;
+   top: 1px;
+   left:1px;
+}
+.c2{
+    background-color: yellow;
+  position: fixed;
+    bottom: 1px;
+    left:1px;
+    
+}
+.c3{
+    background-color:rgb(208, 84, 191);
+    position:relative;
+    left:110px
+}
+.c4{
+    background-color:skyblue;
+    position: relative;
+    left: 230px;
+    bottom:70px;
+}
+.c5{
+    background-color: red;
+    position: relative;
+    bottom: 40px;
+    left: 110px;
+}
+.c6{
+    background-color: rgb(52, 52, 2);
+    position: relative;
+    left: 230px;
+    bottom:110px;
+}
+.c7{
+background-color: rgb(240, 115, 70);
+position: fixed;
+top:1px;
+right:1px;
+}
+.c8{
+    background-color: rgb(216, 0, 0);
+    position: fixed;
+    bottom:1px;
+    right:1px;
+    
+   
+}
+.c9{
+   
+    background-color:crimson;
+    position: relative;
+    left:220px;
+}
+
+.c10{
+    background-color: rgb(245, 177, 7);
+    position: relative;
+    left:220px;
+    top: 30px;
+}
+
+
+.c11{
+    background-color: rgb(255, 64, 0);
+    position: relative;
+    left: 340px;
+    bottom:140px;
+    
+}
+.c12{
+    background-color:black;
+    position: relative;
+    left: 340px;
+    bottom:110px;
+   
+}
+
+@media  (max-width: 768px) {
+.col2{
+	position: relative;
+    top: 230px;
+    left: 20%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    float: left;
+	width:50%;
+	margin:auto;
+}
+.col2 .box{
+	margin: 5px;
+    flex-shrink: 1;
+}
+.c3, .c4,.c5 ,.c6 ,.c9,.c10,.c11,.c12 {
+	position:unset;
+	
+}
+.col4 .box{
+	margin: 5px;
+    flex-shrink: 1;
+}
+.col4{
+	position: fixed;
+    top: 230px;
+    left: 55%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    float: right;
+	width:50%;
+	margin:auto;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
